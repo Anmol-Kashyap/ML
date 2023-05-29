@@ -1,0 +1,10 @@
+import numpy as np
+x=np.array([[1,2,3],
+		[4,5,6],
+		[7,8,9],
+		[10,11,12],
+		[13,14,15]])
+u,s,v=np.linalg.svd(x)
+print("Singular values : ",s)
+print("Left Singular values : ",v)
+print("Right Singular values : ",d)

@@ -1,0 +1,49 @@
+1. Naive Bayes Classifier
+
+* Naïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems.
+* It is mainly used in text classification that includes a high-dimensional training dataset.
+Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine * learning models that can make quick predictions.
+* It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
+* Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental analysis, and classifying articles.
+
+2. K Means Clustering
+
+* K-Means Clustering is an Unsupervised Learning algorithm, which groups the unlabeled dataset into different clusters. Here K defines the number of pre-defined clusters that need to be created in the process, as if K=2, there will be two clusters, and for K=3, there will be three clusters, and so on.
+* It allows us to cluster the data into different groups and a convenient way to discover the categories of groups in the unlabeled dataset on its own without the need for any training.
+* It is a centroid-based algorithm, where each cluster is associated with a centroid. The main aim of this algorithm is to minimize the sum of distances between the data point and their corresponding clusters.
+* The algorithm takes the unlabeled dataset as input, divides the dataset into k-number of clusters, and repeats the process until it does not find the best clusters. The value of k should be predetermined in this algorithm.
+
+3. KNN Classifier
+
+* K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on Supervised Learning technique.
+* K-NN algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categories.
+* K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
+* K-NN algorithm can be used for Regression as well as for Classification but mostly it is used for the Classification problems.
+* K-NN is a non-parametric algorithm, which means it does not make any assumption on underlying data.
+* It is also called a lazy learner algorithm because it does not learn from the training set immediately instead it stores the dataset and at the time of classification, it performs an action on the dataset.
+
+4. Support Vector Machine
+
+* Support Vector Machine or SVM is one of the most popular Supervised Learning algorithms, which is used for Classification as well as Regression problems. However, primarily, it is used for Classification problems in Machine Learning.
+* The goal of the SVM algorithm is to create the best line or decision boundary that can segregate n-dimensional space into classes so that we can easily put the new data point in the correct category in the future. This best decision boundary is called a hyperplane.
+* SVM chooses the extreme points/vectors that help in creating the hyperplane. These extreme cases are called as support vectors, and hence algorithm is termed as Support Vector Machine.
+
+5. Singular Value Decomposition
+
+* The Singular Value Decomposition (SVD) of a matrix is a factorization of that matrix into three matrices. It has some interesting algebraic properties and conveys important geometrical and theoretical insights about linear transformations. It also has some important applications in data science. In this article, I will try to explain the mathematical intuition behind SVD and its geometrical meaning. 
+
+6. Candidate Elimination
+
+* The candidate elimination algorithm incrementally builds the version space given a hypothesis space H and a set E of examples. The examples are added one by one; each example possibly shrinks the version space by removing the hypotheses that are inconsistent with the example. The candidate elimination algorithm does this by updating the general and specific boundary for each new example. 
+* You can consider this as an extended form of the Find-S algorithm.
+* Consider both positive and negative examples.
+* Actually, positive examples are used here as the Find-S algorithm (Basically they are generalizing from the specification).
+* While the negative example is specified in the generalizing form.
+
+7. Neural Network
+
+* A neural network is a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain. It is a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered structure that resembles the human brain.
+
+8. Feed Forward Neural Network
+
+* A Feed Forward Neural Network is an artificial Neural Network in which the nodes are connected circularly. A feed-forward neural network, in which some routes are cycled, is the polar opposite of a Recurrent Neural Network. The feed-forward model is the basic type of neural network because the input is only processed in one direction. The data always flows in one direction and never backwards/opposite.
